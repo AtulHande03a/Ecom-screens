@@ -1,8 +1,8 @@
+/* component library */
+
+@import url("https://gear-ui.netlify.app/gearUI.css");
+
 /* utils */
 
 @import url("./utils/reset.css");
 @import url("./utils/utils.css");
-
-/* component library */
-
-@import url("https://gear-ui.netlify.app/gearUI.css");
