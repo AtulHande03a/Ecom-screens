@@ -23,6 +23,10 @@
   font-size: 3rem;
 }
 
+.primary-badge-clr {
+  background-color: var(--color-primary);
+}
+
 /* btn */
 
 .btn {
@@ -56,6 +60,50 @@
   max-width: 20rem;
   max-height: 20rem;
   object-fit: contain;
+}
+/* cards  */
+
+.icon-badge {
+  color: var(--white);
+}
+
+.text-badge {
+  top: 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.card-buy-btn {
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.card-buy-btn:hover {
+  background-color: var(--color-primary-shade);
+  color: var(--color-secondary);
+}
+
+.card-price-offer {
+  color: var(--color-primary);
+}
+
+.orange-btn {
+  background-color: var(--color-primary-shade);
+  color: var(--color-secondary);
+}
+
+/* footer */
+
+.footer {
+  color: var(--color-secondary);
+  background: var(--color-primary);
+
+  margin: 1rem 0 0 0;
+}
+
+.social-link-footer:hover {
+  color: var(--color-primary-shade);
 }
 
 @media screen and (max-width: 600px) {

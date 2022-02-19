@@ -8,21 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./kursi.css" />
-    <link rel="stylesheet" href="./screens/home.css" />
+    <link rel="stylesheet" href="./css/home.css" />
     <title>Home | Kursi</title>
   </head>
   <body>
     <header class="header py-0-5 z-1">
       <nav class="flex align-center space-between wrap navbar-container">
         <section class="brandlogo-wrapper pl-1 flex flex-center">
-          <a href="#">
+          <a href="./index.html">
             <img
               class="brandlogo-img py-0-5"
               src="./assets/images/kursi-logo.png"
               alt="Kursi"
             />
           </a>
-          <h1 class="font-bold brandname-text">Kursi</h1>
+          <a href="./index.html">
+            <h1 class="font-bold brandname-text">Kursi</h1>
+          </a>
         </section>
 
         <section class="navbar-search flex space-between">
@@ -47,7 +49,7 @@
             <a href="#">
               <i class="fa-solid fa-cart-shopping badge-icon">
                 <span
-                  class="number-badge icon-badge-position font-size-icon green-badge border-white"
+                  class="number-badge icon-badge-position font-size-icon primary-badge-clr border-white"
                   >4</span
                 >
               </i>
@@ -58,7 +60,7 @@
             <a href="#">
               <i class="fa-solid fa-heart badge-icon">
                 <span
-                  class="number-badge icon-badge-position font-size-icon green-badge border-white"
+                  class="number-badge icon-badge-position font-size-icon primary-badge-clr border-white"
                   >6</span
                 >
               </i>
@@ -76,8 +78,8 @@
         <section class="responsive-detail"></section>
       </nav>
     </header>
-    <main class="main-wrapper flex-column p-0-5">
-      <section class="banner-container">
+    <main class="main-wrapper flex-column">
+      <section class="banner-container mx-0-5">
         <a href="#">
           <img
             loading="lazy"
@@ -120,7 +122,7 @@
             />
           </a>
 
-          <p class="text-m font-semibold">Sofa-Set</p>
+          <p class="text-m font-semibold">Sofa Set</p>
         </div>
         <div class="my-1 mx-1 flex-column flex-center text-center">
           <a href="#">
@@ -131,7 +133,7 @@
             />
           </a>
 
-          <p class="text-m font-semibold">Office Chair</p>
+          <p class="text-m font-semibold">Office Chairs</p>
         </div>
         <div class="my-1 mx-1 flex-column flex-center text-center">
           <a href="#">
@@ -211,12 +213,12 @@
           </section>
           <section class="px-0-5 mb-0-5">
             <p class="card-title font-semi mb-0-5">
-              Andrea Sofa 3 seater in peacock green color
+              Osen King Size Bed with Storage in New Oak Finish
             </p>
-            <span class="card-brand font-semi mb-1">Ikea</span>
+            <span class="card-brand font-semi mb-1">Mintwud</span>
             <div class="card-price mb-0-5">
-              <span class="card-price-offer font-bold">₹ 39,999</span>
-              <span class="card-price-mrp font-semibold">₹ 79,999</span>
+              <span class="card-price-offer font-bold">₹ 23,999</span>
+              <span class="card-price-mrp font-semibold">₹ 47,999</span>
             </div>
             <div class="flex mb-0-5">
               <span class="card-discount-text mb-0-5 font-semibold"
@@ -250,12 +252,12 @@
           </section>
           <section class="px-0-5 mb-0-5">
             <p class="card-title font-semi mb-0-5">
-              Andrea Sofa 3 seater in peacock green color
+              Featherlite Contact High Back Mesh Chair
             </p>
-            <span class="card-brand font-semi mb-1">Ikea</span>
+            <span class="card-brand font-semi mb-1">Featherlite</span>
             <div class="card-price mb-0-5">
-              <span class="card-price-offer font-bold">₹ 39,999</span>
-              <span class="card-price-mrp font-semibold">₹ 79,999</span>
+              <span class="card-price-offer font-bold">₹ 4,999</span>
+              <span class="card-price-mrp font-semibold">₹ 9,999</span>
             </div>
             <div class="flex mb-0-5">
               <span class="card-discount-text mb-0-5 font-semibold"
@@ -269,6 +271,42 @@
           </section>
         </article>
       </section>
+      <footer
+        class="footer text-center w-100 text-sm text-center min-ht-4 p-1 mt-2"
+      >
+        <div class="footer-header">
+          "Made with "
+          <span>♥</span>
+          " by Atul Hande"
+        </div>
+        <ul class="footer-social-icons flex my-1 m-center">
+          <li class="list-inline-item text-m mr-1-5">
+            <a
+              class="social-link-footer"
+              href="https://github.com/AtulHande03a"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="list-inline-item text-m mr-1-5">
+            <a
+              class="social-link-footer"
+              href="https://www.linkedin.com/in/atul-hande/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="list-inline-item text-m mr-1-5">
+            <a
+              class="social-link-footer"
+              href="https://twitter.com/AtulHande9"
+              target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="footer-copy">"© 2022 Kursi e-Cart"</div>
+      </footer>
     </main>
   </body>
 </html>
