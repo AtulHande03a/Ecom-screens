@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Cart | Kursi" />
+    <meta name="author" content="Atul Hande" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../kursi.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <title>Cart | Kursi</title>
+  </head>
+  <body>
+    <header class="header py-0-5 z-1">
+      <nav class="flex align-center space-between wrap navbar-container">
+        <section class="brandlogo-wrapper pl-1 flex flex-center">
+          <a href="../index.html">
+            <img
+              class="brandlogo-img py-0-5"
+              src="../assets/images/kursi-logo.png"
+              alt="Kursi"
+            />
+          </a>
+          <a href="../index.html">
+            <h1 class="font-bold brandname-text">Kursi</h1>
+          </a>
+        </section>
+
+        <section class="navbar-search flex space-between">
+          <input
+            class="w-30 border-none py-0-5 px-1"
+            required
+            placeholder="Door to happinnes begins with a Search.."
+            type="text"
+          />
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass text-l"></i>
+          </button>
+        </section>
+        <section class="navbar-icons flex space-between px-1">
+          <div
+            class="navbar-icon text-l flex-column align-center text-center p-0-5"
+          >
+            <a href="../pages/product-list.html"
+              ><i class="fa-solid fa-store badge-icon"></i
+            ></a>
+            <p class="text-sm">Products</p>
+          </div>
+          <div class="navbar-icon text-l flex-column align-center p-0-5">
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping badge-icon">
+                <span
+                  class="number-badge icon-badge-position font-size-icon primary-badge-clr border-white"
+                  >4</span
+                >
+              </i>
+            </a>
+            <p class="text-sm">Cart</p>
+          </div>
+          <div class="navbar-icon text-l flex-column align-center p-0-5">
+            <a href="../pages/cart.html">
+              <i class="fa-solid fa-heart badge-icon">
+                <span
+                  class="number-badge icon-badge-position font-size-icon primary-badge-clr border-white"
+                  >6</span
+                >
+              </i>
+            </a>
+
+            <p class="text-sm">Wishlist</p>
+          </div>
+          <div
+            class="navbar-icon text-l flex-column align-center text-center p-0-5"
+          >
+            <a href="#"><i class="fa-solid fa-user badge-icon"></i></a>
+            <p class="text-sm">Login</p>
+          </div>
+        </section>
+        <section class="responsive-detail"></section>
+      </nav>
+    </header>
+    <!--- main -->
+    <div class="flex mb-1 gap-2">
+      <main class="main-wrapper p-0-5 ml-1">
+        <!-- horizontal card one -->
+        <article class="card-horizontal flex wrap">
+          <section class="horizontal-image-container mr-2">
+            <img
+              loading="lazy"
+              class="horizontal-card-image responsive-img"
+              src="../assets/images/sofa.jpg"
+              alt="chair-ikea"
+            />
+          </section>
+          <section class="card-description p-1">
+            <h4 class="horizontal-card-title font-regular mb-0-5">
+              Andrea Sofa 3 seater
+            </h4>
+            <div class="hr-icon-container hide">
+              <i class="fa-regular fa-heart horizontal-icon-badge"></i>
+            </div>
+
+            <span class="horizontal-card-brand font-bold">By Ikea</span>
+            <span class="text-badge">Best Seller</span>
+            <div class="rating-warranty-wrap mt-1 mb-1-5">
+              <div class="rating-wrapper">
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+              </div>
+              <div class="warranty-text">36 Month's Warranty</div>
+            </div>
+            <div class="hr-card-price mb-1">
+              <div class="offer-price">
+                <span class="offer-price-amount">₹ 39,999</span>
+                <span class="offer-price-discount">(50% off)</span>
+              </div>
+            </div>
+            <div class="save-price mb-1">
+              <span class="save-price-amount">Save ₹ 40,000</span>
+              <span class="save-price-discount">MRP 79,999</span>
+              <span class="price-incl-text"> (Inc of all taxes) </span>
+            </div>
+            <div class="button-buy-addtocart">
+              <button class="card-add-btn mb-1 hide">Add To Cart</button>
+              <button class="card-buy-btn hide">Buy Now</button>
+            </div>
+            <div class="card-action-buttons flex justify-center">
+              <div class="quantity-action gap-1">
+                <button class="btn-float btn-action">
+                  <i class="fa-solid fa-minus text-m"></i>
+                </button>
+                <span class="quantity mr-0-5 ml-0-5 text-l pointer">1</span>
+                <button class="btn-float btn-action">
+                  <i class="fa-solid fa-plus text-m"></i>
+                </button>
+              </div>
+              <button class="remove-action">Remove</button>
+            </div>
+          </section>
+        </article>
+
+        <!-- horizontal card two -->
+        <article class="card-horizontal flex">
+          <section class="horizontal-image-container mr-2">
+            <img
+              loading="lazy"
+              class="horizontal-card-image responsive-img"
+              src="../assets/images/bed.jpg"
+              alt="chair-ikea"
+            />
+          </section>
+          <section class="card-description p-1">
+            <h4 class="horizontal-card-title font-regular mb-0-5">
+              Osen King Size Bed
+            </h4>
+            <div class="hr-icon-container hide">
+              <i class="fa-regular fa-heart horizontal-icon-badge"></i>
+            </div>
+
+            <span class="horizontal-card-brand font-bold">Mintwud</span>
+            <span class="text-badge">Best Seller</span>
+            <div class="rating-warranty-wrap mt-1 mb-1-5">
+              <div class="rating-wrapper">
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+                <i class="fa-solid fa-star rating-star-icon icon-size"></i>
+              </div>
+              <div class="warranty-text">36 Month's Warranty</div>
+            </div>
+            <div class="hr-card-price mb-1">
+              <div class="offer-price">
+                <span class="offer-price-amount">₹ 23,999</span>
+                <span class="offer-price-discount">(50% off)</span>
+              </div>
+            </div>
+            <div class="save-price mb-1">
+              <span class="save-price-amount">Save ₹ 24,000</span>
+              <span class="save-price-discount">MRP ₹ 47,999</span>
+              <span class="price-incl-text"> (Inc of all taxes) </span>
+            </div>
+            <div class="button-buy-addtocart">
+              <button class="card-add-btn mb-1 hide">Add To Cart</button>
+              <button class="card-buy-btn hide">Buy Now</button>
+            </div>
+            <div class="card-action-buttons flex justify-center">
+              <div class="quantity-action gap-1">
+                <button class="btn-float btn-action">
+                  <i class="fa-solid fa-minus text-m"></i>
+                </button>
+                <span class="quantity mr-0-5 ml-0-5 text-l pointer">1</span>
+                <button class="btn-float btn-action">
+                  <i class="fa-solid fa-plus text-m"></i>
+                </button>
+              </div>
+              <button class="remove-action">Remove</button>
+            </div>
+          </section>
+        </article>
+      </main>
+      <div class="cart-checkout flex-column">
+        <h3>Price Details</h3>
+        <hr />
+        <ul class="checkout-list text-m">
+          <li class="checkout-list-item">
+            <span>Price (2 items)</span>
+            <span class="checkout-price">₹ 1,27,998</span>
+          </li>
+          <li class="checkout-list-item">
+            <span>Discount</span>
+            <span class="checkout-price">- ₹ 64,000</span>
+          </li>
+          <li class="checkout-list-item">
+            <span>Delivery Charges</span>
+            <span class="checkout-price">Free</span>
+          </li>
+        </ul>
+        <hr />
+        <div class="flex space-between">
+          <h3>Total Amount</h3>
+          <p>₹ 63,998</p>
+        </div>
+        <hr />
+        <button class="card-buy-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+
+    <footer class="footer text-center w-100 text-sm text-center min-ht-4 p-1">
+      <div class="footer-header">
+        "Made with "
+        <span>♥</span>
+        " by Atul Hande"
+      </div>
+      <ul class="footer-social-icons flex my-1 m-center">
+        <li class="list-inline-item text-m mr-1-5">
+          <a
+            class="social-link-footer"
+            href="https://github.com/AtulHande03a"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-inline-item text-m mr-1-5">
+          <a
+            class="social-link-footer"
+            href="https://www.linkedin.com/in/atul-hande/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="list-inline-item text-m mr-1-5">
+          <a
+            class="social-link-footer"
+            href="https://twitter.com/AtulHande9"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="footer-copy">"© 2022 Kursi e-Cart"</div>
+    </footer>
+  </body>
+</html>
