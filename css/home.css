@@ -98,8 +98,6 @@
 .footer {
   color: var(--color-secondary);
   background: var(--color-primary);
-
-  margin: 1rem 0 0 0;
 }
 
 .social-link-footer:hover {
