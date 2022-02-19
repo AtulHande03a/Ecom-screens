@@ -28,11 +28,13 @@
 }
 
 /* btn */
+.banner-detail > a {
+  padding: 0.75rem 2rem;
+}
 
 .btn {
   width: max-content;
   display: inline-block;
-  padding: 0.75rem 2rem;
   min-width: 80px;
   color: var(--color-secondary);
   border-radius: 0.5rem;
