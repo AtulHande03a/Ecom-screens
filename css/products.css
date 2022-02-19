@@ -3,7 +3,6 @@
   max-width: 18rem;
   height: calc(100% - 18rem);
   background-color: var(--color-primary-shade);
-
   top: 8rem;
   left: 0;
   box-shadow: var(--dark-shadow);
@@ -17,6 +16,10 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   color: var(--white);
+}
+
+.main-wrapper {
+  justify-content: flex-start;
 }
 
 /* slider */
