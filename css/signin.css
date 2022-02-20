@@ -1,0 +1,52 @@
+.main-login-container {
+  width: 100%;
+  height: 100%;
+}
+
+.login-wrapper {
+  background-color: var(--card-bg);
+}
+
+.input-text {
+  background-color: var(--white);
+  color: var(--color-secondary);
+  border: 1px solid var(--color-primary);
+  padding: 0.7rem;
+}
+
+.input-text:focus {
+  outline: 1px solid var(--color-primary);
+}
+
+.remember-me {
+  gap: 0.5rem;
+}
+
+.forgot-password:hover {
+  color: var(--color-primary);
+}
+
+.login-button-container > .btn {
+  width: 100%;
+  display: inline-block;
+  min-width: 80px;
+  color: var(--color-secondary);
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-shade);
+  border: 1px solid var(--color-primary);
+}
+
+.sign-up-link {
+  color: var(--dark-gray);
+}
+
+.sign-up-link:hover {
+  color: var(--color-secondary);
+}

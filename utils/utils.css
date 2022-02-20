@@ -12,3 +12,9 @@
 .gap-2 {
   gap: 2rem;
 }
+
+/* align-item */
+
+.align-items-center {
+  align-items: center;
+}

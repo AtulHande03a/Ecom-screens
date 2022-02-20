@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Sign In | Kursi" />
+    <meta name="author" content="Atul Hande" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../kursi.css" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <title>Sign In | Kursi</title>
+  </head>
+  <body>
+    <header class="header py-0-5 z-1">
+      <nav class="flex align-center space-between wrap navbar-container">
+        <section class="brandlogo-wrapper pl-1 flex flex-center">
+          <a href="../index.html">
+            <img
+              class="brandlogo-img py-0-5"
+              src="../assets/images/kursi-logo.png"
+              alt="Kursi"
+            />
+          </a>
+          <a href="../index.html">
+            <h1 class="font-bold brandname-text">Kursi</h1>
+          </a>
+        </section>
+
+        <section class="navbar-search flex space-between">
+          <input
+            class="w-30 border-none py-0-5 px-1"
+            required
+            placeholder="Door to happinnes begins with a Search.."
+            type="text"
+          />
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass text-l"></i>
+          </button>
+        </section>
+        <section class="navbar-icons flex space-between px-1">
+          <div
+            class="navbar-icon text-l flex-column align-center text-center p-0-5"
+          >
+            <a href="../pages/product-list.html"
+              ><i class="fa-solid fa-store badge-icon"></i
+            ></a>
+            <p class="text-sm">Products</p>
+          </div>
+          <div class="navbar-icon text-l flex-column align-center p-0-5">
+            <a href="../pages/cart.html">
+              <i class="fa-solid fa-cart-shopping badge-icon">
+                <span
+                  class="number-badge icon-badge-position font-size-icon primary-badge-clr border-white"
+                  >2</span
+                >
+              </i>
+            </a>
+            <p class="text-sm">Cart</p>
+          </div>
+          <div class="navbar-icon text-l flex-column align-center p-0-5">
+            <a href="../pages/wishlist.html">
+              <i class="fa-solid fa-heart badge-icon">
+                <span
+                  class="number-badge icon-badge-position font-size-icon primary-badge-clr border-white"
+                  >4</span
+                >
+              </i>
+            </a>
+
+            <p class="text-sm">Wishlist</p>
+          </div>
+          <div
+            class="navbar-icon text-l flex-column align-center text-center p-0-5"
+          >
+            <a href="./signin.html"
+              ><i class="fa-solid fa-user badge-icon"></i
+            ></a>
+            <p class="text-sm">Login</p>
+          </div>
+        </section>
+      </nav>
+    </header>
+
+    <main class="flex flex-center p-2 main-login-container">
+      <div class="login-wrapper flex-column w-30 p-2">
+        <form class="login-form-container flex-column">
+          <h2 class="pb-1 text-center">LOGIN</h2>
+          <label for="email-id" class="text-m mb-0-5">Email</label>
+          <input
+            class="input-text mb-1"
+            type="email"
+            name="email-id"
+            id="email-id"
+            placeholder="kursi@example.com"
+          />
+          <label for="password" class="text-m mb-0-5">Password</label>
+          <input
+            class="input-text mb-2"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="*************"
+          />
+
+          <div class="flex space-between wrap mb-2 p-0-5 text-sm gap-1">
+            <label
+              for="remember-me"
+              class="flex remember-me justify-center align-items-center"
+            >
+              <input type="checkbox" name="remember-me" id="remember-me" />
+              Remember me
+            </label>
+            <a href="#" class="font-semi pointer forgot-password"
+              >Forgot Password?</a
+            >
+          </div>
+          <div class="login-button-container text-center">
+            <button class="btn btn-primary mb-1">Login</button>
+            <a
+              href="./signup.html"
+              class="text-m font-semi text-center sign-up-link"
+              >New on Kursi?? Sign Up now!!</a
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer text-center w-100 text-sm text-center min-ht-4 p-1">
+      <div class="footer-header">
+        "Made with "
+        <span>♥</span>
+        " by Atul Hande"
+      </div>
+      <ul class="footer-social-icons flex my-1 m-center">
+        <li class="list-inline-item text-m mr-1-5">
+          <a
+            class="social-link-footer"
+            href="https://github.com/AtulHande03a"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-inline-item text-m mr-1-5">
+          <a
+            class="social-link-footer"
+            href="https://www.linkedin.com/in/atul-hande/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="list-inline-item text-m mr-1-5">
+          <a
+            class="social-link-footer"
+            href="https://twitter.com/AtulHande9"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+      <div class="footer-copy">"© 2022 Kursi e-Cart"</div>
+    </footer>
+  </body>
+</html>

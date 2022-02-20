@@ -40,3 +40,17 @@
   background: var(--blue);
   border: 1px solid var(--blue);
 }
+
+.button-link {
+  background: transparent;
+  background-color: none;
+  border: none;
+  border-radius: 0;
+  color: var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary);
+  padding: 0;
+  min-width: max-content;
+  min-height: max-content;
+  -webkit-border-radius: 0;
+  line-height: 1.5;
+}
