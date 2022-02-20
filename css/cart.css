@@ -201,3 +201,51 @@
 .checkout-list :nth-child(2) > .checkout-price {
   color: var(--color-primary);
 }
+
+@media screen and (max-width: 480px) {
+  .main-container-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  .main-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+  }
+
+  .horizontal-image-container {
+    display: none;
+  }
+
+  .card-horizontal {
+    width: 100vw;
+  }
+  .text-badge {
+    display: none;
+  }
+  .card-description {
+    width: fit-content;
+    gap: 0.5rem;
+  }
+
+  .card-action-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 1rem;
+  }
+
+  .cart-checkout {
+    display: block;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+  }
+}
