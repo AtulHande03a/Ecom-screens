@@ -54,3 +54,40 @@
   -webkit-border-radius: 0;
   line-height: 1.5;
 }
+
+@media screen and (min-width: 480px) {
+  .filter-btn-responsive {
+    display: none;
+  }
+
+  #filters {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .filters {
+    display: none;
+  }
+
+  .filter-btn-responsive {
+    display: flex;
+  }
+
+  .filters {
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    z-index: 2;
+    height: fit-content;
+    width: fit-content;
+    overflow-y: auto;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .main-wrapper {
+    justify-content: center;
+  }
+}
