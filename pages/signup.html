@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Sign In | Kursi" />
+    <meta name="description" content="Sign Up | Kursi" />
     <meta name="author" content="Atul Hande" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="../kursi.css" />
-    <link rel="stylesheet" href="../css/signin.css" />
-    <title>Sign In | Kursi</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+    <title>Sign Up | Kursi</title>
   </head>
   <body>
     <header class="header py-0-5 z-1">
@@ -85,7 +85,29 @@
     <main class="flex flex-center p-2 main-login-container">
       <div class="login-wrapper flex-column w-30 p-2">
         <form class="login-form-container flex-column">
-          <h2 class="pb-1 text-center">LOGIN</h2>
+          <h2 class="pb-1 text-center">Sign Up</h2>
+          <div class="mb-1 flex justify-center">
+            <div class="mr-0-5 flex-column">
+              <label for="first-name" class="text-m mb-0-5">First Name</label>
+              <input
+                class="input-text w-100"
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Jetha"
+              />
+            </div>
+            <div class="mr-0-5 flex-column">
+              <label for="first-name" class="text-m mb-0-5">Last Name</label>
+              <input
+                class="input-text w-100"
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Lal"
+              />
+            </div>
+          </div>
           <label for="email-id" class="text-m mb-0-5">Email</label>
           <input
             class="input-text mb-1"
@@ -96,14 +118,25 @@
           />
           <label for="password" class="text-m mb-0-5">Password</label>
           <input
-            class="input-text mb-2"
+            class="input-text mb-1"
             type="password"
             name="password"
             id="password"
             placeholder="*************"
           />
 
-          <div class="flex space-between wrap mb-2 p-0-5 text-sm">
+          <label for="confirm-password" class="text-m mb-0-5"
+            >Confirm Password</label
+          >
+          <input
+            class="input-text mb-2"
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="*************"
+          />
+
+          <div class="flex space-between wrap mb-2 p-0-5 text-sm hide">
             <label
               for="remember-me"
               class="flex remember-me justify-center align-items-center"
@@ -115,12 +148,16 @@
               >Forgot Password?</a
             >
           </div>
+          <span class="terms-policy-text mb-1"
+            >By continuing, you agree to Kursi's Terms of Use and Privacy
+            Policies.</span
+          >
           <div class="login-button-container text-center">
-            <button class="btn btn-primary mb-1">Login</button>
+            <button class="btn btn-primary mb-1">Create New Account</button>
             <a
-              href="./signup.html"
+              href="./signin.html"
               class="text-m font-semi text-center sign-up-link"
-              >New on Kursi?? Sign Up now!!</a
+              >Already on Kursi?? Sign In now!!</a
             >
           </div>
         </form>
