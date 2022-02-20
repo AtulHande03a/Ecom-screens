@@ -7,9 +7,6 @@
 @import url("./utils/reset.css");
 @import url("./utils/utils.css");
 
-/* screen css */
+/*home page screen css */
 
 @import url("./css/home.css");
-@import url("./css/products.css");
-@import url("./css/cart.css");
-@import url("./css/wishlist.css");
